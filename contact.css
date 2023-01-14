@@ -1,0 +1,52 @@
+.navbar{
+    width: 100%;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+.main{
+    height: 4rem;
+}
+.container-fluid .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 146, 136);
+    height: 100%;
+    width: 12rem;
+}
+.navbar-nav {
+    margin-left: auto;
+    background-color: bisque;
+}
+.navbar .ul{
+    display: flex ;
+    flex-direction: row;
+    gap: 2rem;
+}
+.contact{
+    background: rgb(161, 149, 149);
+    min-height: 100vh;
+}
+.contact h2{
+ color: rgb(24, 146, 136);
+}
+.contact .right .heading{
+   width: 100%;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+.contact label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact button{
+    width: 6rem;
+    height: 2.5rem;
+    background: rgb(24, 146, 136);
+    border:none;
+}

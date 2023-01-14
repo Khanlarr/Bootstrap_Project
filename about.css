@@ -1,0 +1,37 @@
+.navbar{
+    width: 100%;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+.main{
+    height: 4rem;
+}
+.container-fluid .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 146, 136);
+    height: 100%;
+    width: 12rem;
+}
+.navbar .ul{
+    display: flex ;
+    flex-direction: row;
+    gap: 2rem;
+}
+.navbar-nav {
+    margin-left: auto;
+    background-color: bisque;
+}
+.about{
+    background: rgb(161, 149, 149);
+    min-height: 100vh;
+}
+.about .left .heading{
+    width: 100%;
+}
+.about .right .heading{
+   color: rgb(24, 146, 136);
+   width: 100%;
+}
